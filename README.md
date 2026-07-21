@@ -4,8 +4,7 @@ https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Opisthoteuthis_califor
 
 By Ed Bowlby, NOAA/Olympic Coast NMS; NOAA/OAR/Office of Ocean Exploration - NOAA Photo Library, Public Domain, https://commons.wikimedia.org/w/index.php?curid=11244142
 
-
- Breakout board for Labjack T7
+Breakout board for Labjack T7
 
 ### Flapjack Octopus -- Labjack T7 Breakout
 

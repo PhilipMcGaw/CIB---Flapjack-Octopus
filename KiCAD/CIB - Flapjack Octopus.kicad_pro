@@ -561,7 +561,173 @@
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/10µA": [
+        "PCBway min 1 oz "
+      ],
+      "/200µA": [
+        "PCBway min 1 oz "
+      ],
+      "/AIN0": [
+        "PCBway min 1 oz "
+      ],
+      "/AIN1": [
+        "PCBway min 1 oz "
+      ],
+      "/AIN10": [
+        "PCBway min 1 oz "
+      ],
+      "/AIN10_PD": [
+        "PCBway min 1 oz "
+      ],
+      "/AIN11": [
+        "PCBway min 1 oz "
+      ],
+      "/AIN11_PD": [
+        "PCBway min 1 oz "
+      ],
+      "/AIN12": [
+        "PCBway min 1 oz "
+      ],
+      "/AIN12_PD": [
+        "PCBway min 1 oz "
+      ],
+      "/AIN13": [
+        "PCBway min 1 oz "
+      ],
+      "/AIN13_PD": [
+        "PCBway min 1 oz "
+      ],
+      "/AIN2": [
+        "PCBway min 1 oz "
+      ],
+      "/AIN3": [
+        "PCBway min 1 oz "
+      ],
+      "/AIN4": [
+        "PCBway min 1 oz "
+      ],
+      "/AIN5": [
+        "PCBway min 1 oz "
+      ],
+      "/AIN6": [
+        "PCBway min 1 oz "
+      ],
+      "/AIN7": [
+        "PCBway min 1 oz "
+      ],
+      "/AIN8": [
+        "PCBway min 1 oz "
+      ],
+      "/AIN8_PD": [
+        "PCBway min 1 oz "
+      ],
+      "/AIN9": [
+        "PCBway min 1 oz "
+      ],
+      "/AIN9_PD": [
+        "PCBway min 1 oz "
+      ],
+      "/CIO0": [
+        "PCBway min 1 oz "
+      ],
+      "/CIO1": [
+        "PCBway min 1 oz "
+      ],
+      "/CIO2": [
+        "PCBway min 1 oz "
+      ],
+      "/CIO3": [
+        "PCBway min 1 oz "
+      ],
+      "/DAC0": [
+        "PCBway min 1 oz "
+      ],
+      "/DAC1": [
+        "PCBway min 1 oz "
+      ],
+      "/EIO0": [
+        "PCBway min 1 oz "
+      ],
+      "/EIO1": [
+        "PCBway min 1 oz "
+      ],
+      "/EIO2": [
+        "PCBway min 1 oz "
+      ],
+      "/EIO3": [
+        "PCBway min 1 oz "
+      ],
+      "/EIO4": [
+        "PCBway min 1 oz "
+      ],
+      "/EIO5": [
+        "PCBway min 1 oz "
+      ],
+      "/EIO6": [
+        "PCBway min 1 oz "
+      ],
+      "/EIO7": [
+        "PCBway min 1 oz "
+      ],
+      "/FIO0": [
+        "PCBway min 1 oz "
+      ],
+      "/FIO1": [
+        "PCBway min 1 oz "
+      ],
+      "/FIO2": [
+        "PCBway min 1 oz "
+      ],
+      "/FIO3": [
+        "PCBway min 1 oz "
+      ],
+      "/FIO4": [
+        "PCBway min 1 oz "
+      ],
+      "/FIO5": [
+        "PCBway min 1 oz "
+      ],
+      "/FIO6": [
+        "PCBway min 1 oz "
+      ],
+      "/FIO7": [
+        "PCBway min 1 oz "
+      ],
+      "/MIO0": [
+        "PCBway min 1 oz "
+      ],
+      "/MIO1": [
+        "PCBway min 1 oz "
+      ],
+      "/MIO2": [
+        "PCBway min 1 oz "
+      ],
+      "/VM+": [
+        "PCBway min 1 oz "
+      ],
+      "/VM-": [
+        "PCBway min 1 oz "
+      ],
+      "Net-(JP11-B)": [
+        "PCBway min 1 oz "
+      ],
+      "Net-(JP13-B)": [
+        "PCBway min 1 oz "
+      ],
+      "Net-(JP15-B)": [
+        "PCBway min 1 oz "
+      ],
+      "Net-(JP17-B)": [
+        "PCBway min 1 oz "
+      ],
+      "Net-(JP7-B)": [
+        "PCBway min 1 oz "
+      ],
+      "Net-(JP9-B)": [
+        "PCBway min 1 oz "
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -707,6 +873,46 @@
     [
       "826ffc68-668b-412d-8cba-aeb11a315a8a",
       "CIB - Flapjack Octopus"
+    ],
+    [
+      "2ac32372-22e9-4c76-8d16-29d3e6ea92f6",
+      "Analogue Potential Divider"
+    ],
+    [
+      "79c6a07a-b2c7-4a67-8d14-c0592a421e94",
+      "Analogue Potential Divider1"
+    ],
+    [
+      "b54b476c-dddd-424b-8a82-117fa3c91d87",
+      "Analogue Potential Divider2"
+    ],
+    [
+      "981788c4-b71e-4e41-ad4a-fa1116b9d6f1",
+      "Analogue Potential Divider3"
+    ],
+    [
+      "deca8d63-9dcb-4168-a57d-e5915ed585e3",
+      "Analogue Potential Divider4"
+    ],
+    [
+      "31338f70-c390-40e5-8db5-744d43ae80a2",
+      "Analogue Potential Divider5"
+    ],
+    [
+      "108a7879-cd70-462d-831d-c59d7a1dad33",
+      "LED Indicators"
+    ],
+    [
+      "f5c3dd34-5434-4a9b-bb13-5aaad07bd4fd",
+      "LED Indicators1"
+    ],
+    [
+      "3a186029-644f-402e-8a8a-781dce8dcd8d",
+      "LED Indicators2"
+    ],
+    [
+      "4ab1472e-bfcc-42c0-8aa7-38ded2b28643",
+      "LED Indicators3"
     ]
   ],
   "text_variables": {},

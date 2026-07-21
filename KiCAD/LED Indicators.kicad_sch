@@ -1,0 +1,3689 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "6b2a326c-446a-44c5-84f6-b8d88fb20bdd")
+	(paper "A4")
+	(title_block
+		(title "Labjack T7 Breakout - Flapjack Octopus")
+		(rev "0.2")
+		(company "${Company Name}")
+	)
+	(lib_symbols
+		(symbol "74xx:74LS04"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74LS04"
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Hex Inverter"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TTL not inv"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm* SSOP?14* TSSOP?14*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "74LS04_1_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LS04_2_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LS04_3_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LS04_4_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LS04_5_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LS04_6_0"
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 -3.81) (xy 3.81 0) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output inverted
+					(at 7.62 0 180)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 3.81)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LS04_7_0"
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74LS04_7_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:LED_Small_Filled"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED_Small_Filled"
+				(at -4.445 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode, small symbol, filled shape"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode light-emitting-diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_Small_Filled_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Small_Filled_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+5V"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 140.97 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6437fba0-d4ea-4460-bbc2-ed3cd9eff670")
+	)
+	(junction
+		(at 140.97 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d7b07df-4586-4409-9997-3bc7e11bc8cd")
+	)
+	(junction
+		(at 140.97 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f6dd8ed-d544-4e4f-b254-eeb4e44fb3a0")
+	)
+	(junction
+		(at 140.97 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8bcbee4-ecf9-4507-9755-cccea67e9992")
+	)
+	(junction
+		(at 140.97 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecf8c812-5152-4910-b743-671eec41a380")
+	)
+	(wire
+		(pts
+			(xy 140.97 49.53) (xy 138.43 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11dab457-5dd5-4732-9ea4-80ef01cd6d34")
+	)
+	(wire
+		(pts
+			(xy 140.97 76.2) (xy 140.97 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1636351d-a7e8-4918-8ef4-71455cabf83a")
+	)
+	(wire
+		(pts
+			(xy 140.97 67.31) (xy 140.97 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17d9b8da-ddae-431c-a183-0cc94dfa009d")
+	)
+	(wire
+		(pts
+			(xy 125.73 67.31) (xy 123.19 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3889bbce-aecf-4373-92ce-746d340ef360")
+	)
+	(wire
+		(pts
+			(xy 140.97 49.53) (xy 140.97 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ddcee5d-4223-4c29-9c34-69e26d5ca962")
+	)
+	(wire
+		(pts
+			(xy 140.97 46.99) (xy 140.97 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "436e9b7e-1d26-428d-adb3-0a20970cbcea")
+	)
+	(wire
+		(pts
+			(xy 105.41 93.98) (xy 107.95 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4862aba3-dad3-4b02-891d-370fae1c8df7")
+	)
+	(wire
+		(pts
+			(xy 140.97 58.42) (xy 140.97 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "511bee02-9e2c-4fc2-b766-4a5b21752db6")
+	)
+	(wire
+		(pts
+			(xy 140.97 76.2) (xy 138.43 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "542035d3-c1ef-4f76-b1bd-a693ab953516")
+	)
+	(wire
+		(pts
+			(xy 105.41 58.42) (xy 107.95 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6083db54-4772-427d-8f21-f02a6bad09e7")
+	)
+	(wire
+		(pts
+			(xy 105.41 85.09) (xy 107.95 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b0da3f5-3237-40aa-906e-9d23762a5aca")
+	)
+	(wire
+		(pts
+			(xy 125.73 76.2) (xy 123.19 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77e96bdf-ab96-4c5e-bcf3-39c11c1cdcd2")
+	)
+	(wire
+		(pts
+			(xy 105.41 49.53) (xy 107.95 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a826db0-3a27-4dfb-a2c7-4a628c6b72c5")
+	)
+	(wire
+		(pts
+			(xy 133.35 85.09) (xy 130.81 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86059bf1-4b28-4131-b2ea-4ef2bd816800")
+	)
+	(wire
+		(pts
+			(xy 133.35 49.53) (xy 130.81 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c6983ff-cc7a-4cfb-8372-bc02235eedfb")
+	)
+	(wire
+		(pts
+			(xy 133.35 93.98) (xy 130.81 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8efb50a9-6b49-49e9-acb7-3c7dbc169459")
+	)
+	(wire
+		(pts
+			(xy 125.73 93.98) (xy 123.19 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "999f56de-2f28-44b6-a955-09a6b5b8e80b")
+	)
+	(wire
+		(pts
+			(xy 133.35 67.31) (xy 130.81 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a1c0151-c971-4dfd-a3c4-734ce84cefd4")
+	)
+	(wire
+		(pts
+			(xy 140.97 93.98) (xy 138.43 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d210531-86d8-44e3-9bce-19823ea2d00a")
+	)
+	(wire
+		(pts
+			(xy 133.35 58.42) (xy 130.81 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5f10564-2cd9-40df-9b36-3bee69044e29")
+	)
+	(wire
+		(pts
+			(xy 125.73 58.42) (xy 123.19 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3b2a7cb-511d-4b79-9e05-fd0daf65e84e")
+	)
+	(wire
+		(pts
+			(xy 140.97 85.09) (xy 140.97 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd20658e-5bfa-4a28-9746-aebe2f59c1e0")
+	)
+	(wire
+		(pts
+			(xy 105.41 76.2) (xy 107.95 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3f383c0-be80-4665-b1bb-3a9d89b4558c")
+	)
+	(wire
+		(pts
+			(xy 133.35 76.2) (xy 130.81 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3f9ff41-32dd-4d42-85be-f19b7c1eaf1c")
+	)
+	(wire
+		(pts
+			(xy 140.97 67.31) (xy 138.43 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de24873b-9299-48d0-84f4-1b0de63b1444")
+	)
+	(wire
+		(pts
+			(xy 125.73 85.09) (xy 123.19 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6e82ec3-a228-4de0-8bac-c0761528eaec")
+	)
+	(wire
+		(pts
+			(xy 140.97 58.42) (xy 138.43 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea518cc2-22b8-4a7c-9e00-2f01cf08e2d9")
+	)
+	(wire
+		(pts
+			(xy 125.73 49.53) (xy 123.19 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebebec5c-72fa-4896-8a4b-62b3f15e17ab")
+	)
+	(wire
+		(pts
+			(xy 140.97 85.09) (xy 138.43 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f713cdc0-1a98-46f7-8731-2ac2cf633460")
+	)
+	(wire
+		(pts
+			(xy 105.41 67.31) (xy 107.95 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9cf9b64-27ed-40d3-8167-1e5a4a9acd1c")
+	)
+	(hierarchical_label "LED4"
+		(shape input)
+		(at 105.41 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "10062352-b764-4414-96ab-e194e81be389")
+	)
+	(hierarchical_label "LED1"
+		(shape input)
+		(at 105.41 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4e18d6a7-a4e1-4b23-a10e-e87658ab7648")
+	)
+	(hierarchical_label "LED6"
+		(shape input)
+		(at 105.41 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "69fe201c-1185-4dab-9516-8dee774f39b5")
+	)
+	(hierarchical_label "LED2"
+		(shape input)
+		(at 105.41 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b2e41aa6-1e46-4bdd-b04d-3a2b0f893135")
+	)
+	(hierarchical_label "LED3"
+		(shape input)
+		(at 105.41 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd0dda2d-6673-412a-94d7-ac5f60515aab")
+	)
+	(hierarchical_label "LED5"
+		(shape input)
+		(at 105.41 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dac8562e-1c30-40d3-94f4-6ce188352663")
+	)
+	(symbol
+		(lib_id "Device:LED_Small_Filled")
+		(at 135.89 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "012d8fcc-eab3-4ee9-ab89-0bba685dcc2f")
+		(property "Reference" "D22"
+			(at 135.9535 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GN"
+			(at 135.9535 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 135.89 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1ca8118d-9c87-4726-b261-38482195be7f")
+		)
+		(pin "2"
+			(uuid "59cef5cc-c3ce-4c89-aa45-69995b07f461")
+		)
+		(instances
+			(project "CIB - Flapjack Octopus"
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/108a7879-cd70-462d-831d-c59d7a1dad33"
+					(reference "D22")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/3a186029-644f-402e-8a8a-781dce8dcd8d"
+					(reference "D24")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/4ab1472e-bfcc-42c0-8aa7-38ded2b28643"
+					(reference "D30")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/f5c3dd34-5434-4a9b-bb13-5aaad07bd4fd"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS04")
+		(at 115.57 76.2 0)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a598765-1dbd-4286-9838-35a7d8d53010")
+		(property "Reference" "U2"
+			(at 115.57 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS04"
+			(at 115.57 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+			(at 115.57 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "304cfed3-e96f-4970-b62a-b6df1121fde1")
+		)
+		(pin "2"
+			(uuid "821f3724-8577-41a8-a4e0-e69d28ade78a")
+		)
+		(pin "3"
+			(uuid "a2ed8aa4-0e72-4b1d-9c88-bd440b034ebf")
+		)
+		(pin "4"
+			(uuid "110a8236-4658-40db-b1dd-7fada74e10cd")
+		)
+		(pin "5"
+			(uuid "60265074-cd17-46e7-8ff8-758c84fd3817")
+		)
+		(pin "6"
+			(uuid "c9f3629c-8cdd-4296-80de-e345d3c648d7")
+		)
+		(pin "8"
+			(uuid "905f90d6-b573-4712-b274-6f8390ca6e39")
+		)
+		(pin "9"
+			(uuid "1ead4ead-98e1-46ce-9eb8-861188a10f54")
+		)
+		(pin "10"
+			(uuid "d6589e4c-4b49-4e72-912e-7b417df99097")
+		)
+		(pin "11"
+			(uuid "ea64ad2f-e93b-4b12-971c-7c9b49922152")
+		)
+		(pin "12"
+			(uuid "f22a587a-0751-4f0b-b3de-86c6227b5139")
+		)
+		(pin "13"
+			(uuid "9e9030b9-63c4-4985-a415-4ba525e3c07c")
+		)
+		(pin "14"
+			(uuid "f4b461b9-cc3c-4521-81bb-cfbfce3eb08f")
+		)
+		(pin "7"
+			(uuid "7381fa98-a6ed-4237-8334-e38e5664bf64")
+		)
+		(instances
+			(project "CIB - Flapjack Octopus"
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/108a7879-cd70-462d-831d-c59d7a1dad33"
+					(reference "U2")
+					(unit 4)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/3a186029-644f-402e-8a8a-781dce8dcd8d"
+					(reference "U4")
+					(unit 4)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/4ab1472e-bfcc-42c0-8aa7-38ded2b28643"
+					(reference "U6")
+					(unit 4)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/f5c3dd34-5434-4a9b-bb13-5aaad07bd4fd"
+					(reference "U3")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 140.97 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "302de680-fca6-4601-bc55-b565377fbf98")
+		(property "Reference" "#PWR054"
+			(at 140.97 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 140.97 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b2c4178-29d1-4b02-84ad-eb5c8045abcd")
+		)
+		(instances
+			(project "CIB - Flapjack Octopus"
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/108a7879-cd70-462d-831d-c59d7a1dad33"
+					(reference "#PWR054")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/3a186029-644f-402e-8a8a-781dce8dcd8d"
+					(reference "#PWR060")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/4ab1472e-bfcc-42c0-8aa7-38ded2b28643"
+					(reference "#PWR064")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/f5c3dd34-5434-4a9b-bb13-5aaad07bd4fd"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 128.27 85.09 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "323f6a61-bce3-4e19-b9a3-3efd5fc8d064")
+		(property "Reference" "R19"
+			(at 128.27 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 128.27 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 128.27 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7fd0527e-83e7-427a-ad50-e13313da0b70")
+		)
+		(pin "2"
+			(uuid "e3a625fe-a288-4557-b977-d88377f6a24b")
+		)
+		(instances
+			(project "CIB - Flapjack Octopus"
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/108a7879-cd70-462d-831d-c59d7a1dad33"
+					(reference "R19")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/3a186029-644f-402e-8a8a-781dce8dcd8d"
+					(reference "R21")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/4ab1472e-bfcc-42c0-8aa7-38ded2b28643"
+					(reference "R29")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/f5c3dd34-5434-4a9b-bb13-5aaad07bd4fd"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 128.27 49.53 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "368f701a-d6d7-4d05-9156-fdd2ed5de6cb")
+		(property "Reference" "R7"
+			(at 128.27 44.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 128.27 46.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 128.27 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6840223b-6bb6-4f44-811b-bba74db76006")
+		)
+		(pin "2"
+			(uuid "9571faf0-eee8-4175-bde3-3f5361b60a8f")
+		)
+		(instances
+			(project "CIB - Flapjack Octopus"
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/108a7879-cd70-462d-831d-c59d7a1dad33"
+					(reference "R7")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/3a186029-644f-402e-8a8a-781dce8dcd8d"
+					(reference "R9")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/4ab1472e-bfcc-42c0-8aa7-38ded2b28643"
+					(reference "R25")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/f5c3dd34-5434-4a9b-bb13-5aaad07bd4fd"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS04")
+		(at 115.57 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e6c023d-5333-4a37-b4b3-68d9d25a9ae0")
+		(property "Reference" "U2"
+			(at 115.57 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS04"
+			(at 115.57 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SSOP-14_5.3x6.2mm_P0.65mm"
+			(at 115.57 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+			(at 115.57 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f5dd1317-63da-43cf-97b9-041a94b1794b")
+		)
+		(pin "2"
+			(uuid "56c655ad-ebcd-42f8-b6b6-67a24deb0f6e")
+		)
+		(pin "3"
+			(uuid "4768fc8f-c692-4966-9487-94a3fc922571")
+		)
+		(pin "4"
+			(uuid "f51ce87e-925e-4fc4-b91c-8fc8c2aef3bb")
+		)
+		(pin "5"
+			(uuid "6e25f246-4da9-4474-8f88-4720ce2802a8")
+		)
+		(pin "6"
+			(uuid "9180c200-6bf4-4fb9-adba-b7f6488ffbd9")
+		)
+		(pin "8"
+			(uuid "a2ca0d1c-02b4-4b3d-aa82-9f2437a95645")
+		)
+		(pin "9"
+			(uuid "2a947757-0ce6-4777-a474-17419373ab12")
+		)
+		(pin "10"
+			(uuid "c33d0300-f8d4-4cb6-818b-781ef194cc17")
+		)
+		(pin "11"
+			(uuid "19708182-9a3d-4d8a-8567-b229f1225e87")
+		)
+		(pin "12"
+			(uuid "04eca1bd-b039-4461-8fb9-52dbe9e30901")
+		)
+		(pin "13"
+			(uuid "5eb37abf-528b-4e08-be97-5bdfd96240db")
+		)
+		(pin "14"
+			(uuid "12ed4abf-c098-4426-ab76-cb2fabe6e3b2")
+		)
+		(pin "7"
+			(uuid "501ed6a8-f0cb-4f6d-b02f-27bf56ba6c17")
+		)
+		(instances
+			(project "CIB - Flapjack Octopus"
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/108a7879-cd70-462d-831d-c59d7a1dad33"
+					(reference "U2")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/3a186029-644f-402e-8a8a-781dce8dcd8d"
+					(reference "U4")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/4ab1472e-bfcc-42c0-8aa7-38ded2b28643"
+					(reference "U6")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/f5c3dd34-5434-4a9b-bb13-5aaad07bd4fd"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS04")
+		(at 176.53 72.39 0)
+		(unit 7)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54b4e8e8-58b0-45c7-b87e-5be26ba8ee16")
+		(property "Reference" "U4"
+			(at 182.88 71.1199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "74LS04"
+			(at 182.88 73.6599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+			(at 176.53 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b979b41-242f-4017-be29-b650cae88918")
+		)
+		(pin "2"
+			(uuid "03863fd6-baf3-46fe-a967-ae2c4844ed99")
+		)
+		(pin "3"
+			(uuid "32a3f563-4abe-451e-8436-fd5f87f7cf2c")
+		)
+		(pin "4"
+			(uuid "51d46ed4-4368-4672-a352-efe03e04ab08")
+		)
+		(pin "5"
+			(uuid "880e55ef-26f1-42af-aecd-248c3ff4bba3")
+		)
+		(pin "6"
+			(uuid "4670795b-b760-46b1-bdb5-73851c72e325")
+		)
+		(pin "8"
+			(uuid "df5f0bf8-979d-4839-ae51-2326db3cf560")
+		)
+		(pin "9"
+			(uuid "4ff8b028-78bd-4955-98cc-b95572b7fd5b")
+		)
+		(pin "10"
+			(uuid "7279c761-c7a6-41b8-8659-f6ca0dae6044")
+		)
+		(pin "11"
+			(uuid "999d9e30-e0bd-4f65-ba8d-6ad3f0ddfcb4")
+		)
+		(pin "12"
+			(uuid "f1481e2a-a577-4f5d-ad3f-fef7085720cf")
+		)
+		(pin "13"
+			(uuid "f931e8aa-2d06-4123-8505-869d385f72b8")
+		)
+		(pin "14"
+			(uuid "e24291a0-e933-4751-a34c-aa292b473dc6")
+		)
+		(pin "7"
+			(uuid "298fe260-9d02-4597-a554-4f6e4b5a6552")
+		)
+		(instances
+			(project "CIB - Flapjack Octopus"
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/108a7879-cd70-462d-831d-c59d7a1dad33"
+					(reference "U4")
+					(unit 7)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/3a186029-644f-402e-8a8a-781dce8dcd8d"
+					(reference "U7")
+					(unit 7)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/4ab1472e-bfcc-42c0-8aa7-38ded2b28643"
+					(reference "U8")
+					(unit 7)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/f5c3dd34-5434-4a9b-bb13-5aaad07bd4fd"
+					(reference "U6")
+					(unit 7)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small_Filled")
+		(at 135.89 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59671d1b-765b-431c-b2d7-7270b8ce7da7")
+		(property "Reference" "D16"
+			(at 135.9535 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GN"
+			(at 135.9535 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 135.89 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b69e5cd-d014-43eb-bba9-bfc2b6ec43f8")
+		)
+		(pin "2"
+			(uuid "38bf91c6-2844-405b-826d-52ed8fa0d8e7")
+		)
+		(instances
+			(project "CIB - Flapjack Octopus"
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/108a7879-cd70-462d-831d-c59d7a1dad33"
+					(reference "D16")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/3a186029-644f-402e-8a8a-781dce8dcd8d"
+					(reference "D18")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/4ab1472e-bfcc-42c0-8aa7-38ded2b28643"
+					(reference "D28")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/f5c3dd34-5434-4a9b-bb13-5aaad07bd4fd"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 128.27 67.31 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e618a6d-6314-4512-b02d-b6634e2f5a43")
+		(property "Reference" "R13"
+			(at 128.27 62.23 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 128.27 64.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 128.27 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "845a735b-018e-48f3-ad30-2de96ab7a06f")
+		)
+		(pin "2"
+			(uuid "ff7dd7d3-f40b-4ddc-8ac5-09fb33416d02")
+		)
+		(instances
+			(project "CIB - Flapjack Octopus"
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/108a7879-cd70-462d-831d-c59d7a1dad33"
+					(reference "R13")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/3a186029-644f-402e-8a8a-781dce8dcd8d"
+					(reference "R15")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/4ab1472e-bfcc-42c0-8aa7-38ded2b28643"
+					(reference "R27")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/f5c3dd34-5434-4a9b-bb13-5aaad07bd4fd"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 128.27 93.98 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "654bcf74-383b-4f21-a6b5-1658bb165357")
+		(property "Reference" "R22"
+			(at 128.27 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 128.27 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 128.27 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "afa6363b-75c0-49ef-abd9-829f6977c2c1")
+		)
+		(pin "2"
+			(uuid "0cd5115d-e4a9-44b4-a923-cf1c38d8f790")
+		)
+		(instances
+			(project "CIB - Flapjack Octopus"
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/108a7879-cd70-462d-831d-c59d7a1dad33"
+					(reference "R22")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/3a186029-644f-402e-8a8a-781dce8dcd8d"
+					(reference "R24")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/4ab1472e-bfcc-42c0-8aa7-38ded2b28643"
+					(reference "R30")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/f5c3dd34-5434-4a9b-bb13-5aaad07bd4fd"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS04")
+		(at 115.57 49.53 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75a550ad-281f-43d5-affd-8a01db39cbbf")
+		(property "Reference" "U2"
+			(at 115.57 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS04"
+			(at 115.57 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+			(at 115.57 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5e8a4a1c-aef8-4924-a9e3-d800a123ef5a")
+		)
+		(pin "2"
+			(uuid "546b3841-5dfd-4b2f-b2ca-9f216d72f8e3")
+		)
+		(pin "3"
+			(uuid "5cd31b9f-63e2-4987-b6c4-c31f1cadf18d")
+		)
+		(pin "4"
+			(uuid "483aebbf-9a20-411c-a4a5-270ae0ee57a9")
+		)
+		(pin "5"
+			(uuid "509a861f-4dcc-49d7-a300-6b215cfb8cdf")
+		)
+		(pin "6"
+			(uuid "457894e2-5683-4f67-b549-f7c28302f922")
+		)
+		(pin "8"
+			(uuid "73491054-a4c2-4b28-b7ae-b3b39e03fad3")
+		)
+		(pin "9"
+			(uuid "1a286827-0c6d-4b79-a9db-367f2f8a942c")
+		)
+		(pin "10"
+			(uuid "d790151f-da04-4496-9e14-6ee2d2c88e42")
+		)
+		(pin "11"
+			(uuid "15d3963e-d909-4af3-a147-e1d757141417")
+		)
+		(pin "12"
+			(uuid "a90a8bcc-cd7d-4308-8f44-159ce98cd60d")
+		)
+		(pin "13"
+			(uuid "94add44a-3a89-489f-bb7f-5507e85a1eae")
+		)
+		(pin "14"
+			(uuid "3d886401-577f-4de9-9900-d6ce5454e187")
+		)
+		(pin "7"
+			(uuid "25716632-ccd2-4219-9207-67af116fc816")
+		)
+		(instances
+			(project "CIB - Flapjack Octopus"
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/108a7879-cd70-462d-831d-c59d7a1dad33"
+					(reference "U2")
+					(unit 2)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/3a186029-644f-402e-8a8a-781dce8dcd8d"
+					(reference "U4")
+					(unit 2)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/4ab1472e-bfcc-42c0-8aa7-38ded2b28643"
+					(reference "U6")
+					(unit 2)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/f5c3dd34-5434-4a9b-bb13-5aaad07bd4fd"
+					(reference "U3")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS04")
+		(at 115.57 93.98 0)
+		(unit 5)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90ecce3b-576c-4873-9f41-6e0981f90e83")
+		(property "Reference" "U2"
+			(at 115.57 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS04"
+			(at 115.57 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+			(at 115.57 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d0524bb-371e-4fc9-96b3-ebdd3ecc4f9f")
+		)
+		(pin "2"
+			(uuid "6614e5bb-3b1c-4cf6-b08a-f3827436c9da")
+		)
+		(pin "3"
+			(uuid "5fd22f7a-95ef-4fc2-b1de-973cd3509ae0")
+		)
+		(pin "4"
+			(uuid "06c41910-5815-492a-b6a5-863b1d44db70")
+		)
+		(pin "5"
+			(uuid "76b30d34-e4ed-4e60-a5a2-5d5a39da5bbb")
+		)
+		(pin "6"
+			(uuid "709cf005-a5a6-4fba-92f5-7cd8912ac067")
+		)
+		(pin "8"
+			(uuid "b1da91d4-c0c7-4a1c-b40b-5c15952a95ef")
+		)
+		(pin "9"
+			(uuid "dd27e63c-8ffb-446a-94da-040d32c883ae")
+		)
+		(pin "10"
+			(uuid "4e55a14e-feee-45ba-b341-a4ec166bd536")
+		)
+		(pin "11"
+			(uuid "56074a22-2097-4ffa-89b2-01dd88be574d")
+		)
+		(pin "12"
+			(uuid "a1c97228-4e07-498f-b1de-1f96493fc376")
+		)
+		(pin "13"
+			(uuid "48271f53-137f-4708-ba66-f5f3897d76d2")
+		)
+		(pin "14"
+			(uuid "6135b4b1-c99f-4f91-8d00-a617b10468eb")
+		)
+		(pin "7"
+			(uuid "5f12fc75-b282-4aa2-b19d-ee915a78ba0a")
+		)
+		(instances
+			(project "CIB - Flapjack Octopus"
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/108a7879-cd70-462d-831d-c59d7a1dad33"
+					(reference "U2")
+					(unit 5)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/3a186029-644f-402e-8a8a-781dce8dcd8d"
+					(reference "U4")
+					(unit 5)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/4ab1472e-bfcc-42c0-8aa7-38ded2b28643"
+					(reference "U6")
+					(unit 5)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/f5c3dd34-5434-4a9b-bb13-5aaad07bd4fd"
+					(reference "U3")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS04")
+		(at 115.57 85.09 0)
+		(unit 6)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90f739b0-8a85-4854-a960-1967138161dc")
+		(property "Reference" "U2"
+			(at 115.57 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS04"
+			(at 115.57 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+			(at 115.57 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "abede682-4b27-4477-81c9-545eefbe14ea")
+		)
+		(pin "2"
+			(uuid "c85f52b1-e422-41b7-80b9-72e37873fb4f")
+		)
+		(pin "3"
+			(uuid "bf3b73cd-1729-4e31-91b1-5bfdca36a9cc")
+		)
+		(pin "4"
+			(uuid "f2f649e0-2ab6-4cc2-a4b0-75ddde68847f")
+		)
+		(pin "5"
+			(uuid "50458719-8e64-4e43-b8df-f22838faac0b")
+		)
+		(pin "6"
+			(uuid "e02cf8f0-419e-4a06-9deb-080b848bea90")
+		)
+		(pin "8"
+			(uuid "233d9543-5959-47d4-aec4-b94f00a28f79")
+		)
+		(pin "9"
+			(uuid "43e7f0fa-4f49-4dd0-87a4-26c031f6372b")
+		)
+		(pin "10"
+			(uuid "42262837-fd48-4919-928c-6f6bf9774198")
+		)
+		(pin "11"
+			(uuid "792da7f5-923c-4434-a24b-b91058f21f69")
+		)
+		(pin "12"
+			(uuid "04d0835f-e1f8-47c4-9f65-53008982c13d")
+		)
+		(pin "13"
+			(uuid "077c88ac-041e-44d6-aeaa-ded65598938d")
+		)
+		(pin "14"
+			(uuid "36245f19-1e53-4e5f-b7c2-49cf9cd3d550")
+		)
+		(pin "7"
+			(uuid "479cd535-6cb6-4bbe-95a5-918b9319f6fc")
+		)
+		(instances
+			(project "CIB - Flapjack Octopus"
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/108a7879-cd70-462d-831d-c59d7a1dad33"
+					(reference "U2")
+					(unit 6)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/3a186029-644f-402e-8a8a-781dce8dcd8d"
+					(reference "U4")
+					(unit 6)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/4ab1472e-bfcc-42c0-8aa7-38ded2b28643"
+					(reference "U6")
+					(unit 6)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/f5c3dd34-5434-4a9b-bb13-5aaad07bd4fd"
+					(reference "U3")
+					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small_Filled")
+		(at 135.89 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a33df95-4d6d-412c-90b2-d7df8f117673")
+		(property "Reference" "D7"
+			(at 135.9535 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GN"
+			(at 135.9535 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 135.89 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 49.53 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc0c8dbc-a2fb-4561-be2a-67b257c1774a")
+		)
+		(pin "2"
+			(uuid "b89a6da8-209b-4ea6-880e-132ae4777335")
+		)
+		(instances
+			(project "CIB - Flapjack Octopus"
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/108a7879-cd70-462d-831d-c59d7a1dad33"
+					(reference "D7")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/3a186029-644f-402e-8a8a-781dce8dcd8d"
+					(reference "D9")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/4ab1472e-bfcc-42c0-8aa7-38ded2b28643"
+					(reference "D25")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/f5c3dd34-5434-4a9b-bb13-5aaad07bd4fd"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b226f7d8-19b2-492c-ac8a-cd57b77e666d")
+		(property "Reference" "#PWR056"
+			(at 176.53 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 176.53 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "75e2c4b7-58fd-4eb2-8972-f02ef4a8b62b")
+		)
+		(instances
+			(project "CIB - Flapjack Octopus"
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/108a7879-cd70-462d-831d-c59d7a1dad33"
+					(reference "#PWR056")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/3a186029-644f-402e-8a8a-781dce8dcd8d"
+					(reference "#PWR062")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/4ab1472e-bfcc-42c0-8aa7-38ded2b28643"
+					(reference "#PWR066")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/f5c3dd34-5434-4a9b-bb13-5aaad07bd4fd"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 128.27 76.2 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b317c7b4-9514-40e1-bb91-fa51229fd082")
+		(property "Reference" "R16"
+			(at 128.27 71.12 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 128.27 73.66 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 128.27 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "71c388b9-795c-4b2b-b7d0-3930e858a2ea")
+		)
+		(pin "2"
+			(uuid "b82d8f8d-8e1c-4a37-a940-0ade783c4f06")
+		)
+		(instances
+			(project "CIB - Flapjack Octopus"
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/108a7879-cd70-462d-831d-c59d7a1dad33"
+					(reference "R16")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/3a186029-644f-402e-8a8a-781dce8dcd8d"
+					(reference "R18")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/4ab1472e-bfcc-42c0-8aa7-38ded2b28643"
+					(reference "R28")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/f5c3dd34-5434-4a9b-bb13-5aaad07bd4fd"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small_Filled")
+		(at 135.89 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c677e886-8c1b-4fb3-8d59-c67a44c8bd6f")
+		(property "Reference" "D10"
+			(at 135.9535 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GN"
+			(at 135.9535 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 135.89 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1afef31b-c4fe-46c0-bd28-0a48bf3bb7ef")
+		)
+		(pin "2"
+			(uuid "4cebcbf6-503d-43c6-9e15-baa2b259c8bf")
+		)
+		(instances
+			(project "CIB - Flapjack Octopus"
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/108a7879-cd70-462d-831d-c59d7a1dad33"
+					(reference "D10")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/3a186029-644f-402e-8a8a-781dce8dcd8d"
+					(reference "D12")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/4ab1472e-bfcc-42c0-8aa7-38ded2b28643"
+					(reference "D26")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/f5c3dd34-5434-4a9b-bb13-5aaad07bd4fd"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small_Filled")
+		(at 135.89 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf104cab-4534-49df-b3c0-10f8033195aa")
+		(property "Reference" "D19"
+			(at 135.9535 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GN"
+			(at 135.9535 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 135.89 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e0965931-1d55-412f-9ab2-b4761b04bd85")
+		)
+		(pin "2"
+			(uuid "06a424cc-8385-450e-856c-0679c06b60be")
+		)
+		(instances
+			(project "CIB - Flapjack Octopus"
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/108a7879-cd70-462d-831d-c59d7a1dad33"
+					(reference "D19")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/3a186029-644f-402e-8a8a-781dce8dcd8d"
+					(reference "D21")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/4ab1472e-bfcc-42c0-8aa7-38ded2b28643"
+					(reference "D29")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/f5c3dd34-5434-4a9b-bb13-5aaad07bd4fd"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 128.27 58.42 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfc774f7-becb-4c01-9342-94eda0b6adf4")
+		(property "Reference" "R10"
+			(at 128.27 53.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 128.27 55.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 128.27 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "03f7eebf-e277-49b2-b055-09df44c84706")
+		)
+		(pin "2"
+			(uuid "ee097085-851f-47a8-8cea-a6dfad34b5e4")
+		)
+		(instances
+			(project "CIB - Flapjack Octopus"
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/108a7879-cd70-462d-831d-c59d7a1dad33"
+					(reference "R10")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/3a186029-644f-402e-8a8a-781dce8dcd8d"
+					(reference "R12")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/4ab1472e-bfcc-42c0-8aa7-38ded2b28643"
+					(reference "R26")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/f5c3dd34-5434-4a9b-bb13-5aaad07bd4fd"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74xx:74LS04")
+		(at 115.57 67.31 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e73f409d-370b-4ea3-b6e0-e2449ddd7948")
+		(property "Reference" "U2"
+			(at 115.57 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74LS04"
+			(at 115.57 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
+			(at 115.57 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "224ddd7c-e7a6-489d-afcc-5e1bc2326a0d")
+		)
+		(pin "2"
+			(uuid "bf4efef8-dc72-41a0-bc33-43b6d96cb133")
+		)
+		(pin "3"
+			(uuid "998f4e08-e756-4d83-a69d-61293de42ade")
+		)
+		(pin "4"
+			(uuid "43417393-b2bf-417f-bb14-e2d5d822f4c4")
+		)
+		(pin "5"
+			(uuid "47a2a96c-4e05-41c5-9d03-d1b6512f9082")
+		)
+		(pin "6"
+			(uuid "2603ad6c-34ff-44a1-9382-d4bf423b8b88")
+		)
+		(pin "8"
+			(uuid "0c42cac0-45c9-46f8-ba62-e8800218fff7")
+		)
+		(pin "9"
+			(uuid "212751d6-f66d-4313-90ab-3fae95e9eedc")
+		)
+		(pin "10"
+			(uuid "43fe79f7-1971-4628-96b7-d365f409550e")
+		)
+		(pin "11"
+			(uuid "f1ba6fae-8a76-4d69-a174-e2b9d95386c8")
+		)
+		(pin "12"
+			(uuid "d852d23f-0623-4991-ad2c-dc671982272a")
+		)
+		(pin "13"
+			(uuid "9acde6d8-920e-48a8-97b5-2a8b1fcf17bc")
+		)
+		(pin "14"
+			(uuid "60935a90-0107-4e9c-b8c8-e21644b9fd76")
+		)
+		(pin "7"
+			(uuid "e051aef1-f0d7-424a-b047-4c353537ca71")
+		)
+		(instances
+			(project "CIB - Flapjack Octopus"
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/108a7879-cd70-462d-831d-c59d7a1dad33"
+					(reference "U2")
+					(unit 3)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/3a186029-644f-402e-8a8a-781dce8dcd8d"
+					(reference "U4")
+					(unit 3)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/4ab1472e-bfcc-42c0-8aa7-38ded2b28643"
+					(reference "U6")
+					(unit 3)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/f5c3dd34-5434-4a9b-bb13-5aaad07bd4fd"
+					(reference "U3")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small_Filled")
+		(at 135.89 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea49ca64-37a7-499a-b651-94bf81eb6345")
+		(property "Reference" "D13"
+			(at 135.9535 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GN"
+			(at 135.9535 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 135.89 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 67.31 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be14cad0-c5f4-4617-8238-78ef3e88521a")
+		)
+		(pin "2"
+			(uuid "6114425e-fecd-4bbb-9714-72db7e4b23e6")
+		)
+		(instances
+			(project "CIB - Flapjack Octopus"
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/108a7879-cd70-462d-831d-c59d7a1dad33"
+					(reference "D13")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/3a186029-644f-402e-8a8a-781dce8dcd8d"
+					(reference "D15")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/4ab1472e-bfcc-42c0-8aa7-38ded2b28643"
+					(reference "D27")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/f5c3dd34-5434-4a9b-bb13-5aaad07bd4fd"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 176.53 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee612316-9405-4e6d-84db-573b0b68ca5f")
+		(property "Reference" "#PWR055"
+			(at 176.53 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 176.53 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 176.53 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a1f27b14-19cd-4ae9-9004-4d9f3d6320f6")
+		)
+		(instances
+			(project "CIB - Flapjack Octopus"
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/108a7879-cd70-462d-831d-c59d7a1dad33"
+					(reference "#PWR055")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/3a186029-644f-402e-8a8a-781dce8dcd8d"
+					(reference "#PWR061")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/4ab1472e-bfcc-42c0-8aa7-38ded2b28643"
+					(reference "#PWR065")
+					(unit 1)
+				)
+				(path "/826ffc68-668b-412d-8cba-aeb11a315a8a/f5c3dd34-5434-4a9b-bb13-5aaad07bd4fd"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

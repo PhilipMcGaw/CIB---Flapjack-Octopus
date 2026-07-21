@@ -5,6 +5,10 @@
 
 This is a KiCad and software project
 
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+
 [![By Ed Bowlby, NOAA/Olympic Coast NMS; NOAA/OAR/Office of Ocean Exploration - NOAA Photo Library, Public Domain](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Opisthoteuthis_californiana.jpg/250px-Opisthoteuthis_californiana.jpg)](https://commons.wikimedia.org/w/index.php?curid=11244142)
 
 

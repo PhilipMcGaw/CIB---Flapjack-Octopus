@@ -3,6 +3,7 @@
 
 [![License: CC BY-NC-SA](https://img.shields.io/badge/License-CC_BY--NC--SA-purple.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Hardware: CERN-OHL-S](https://img.shields.io/badge/License-CERN--OHL--S--2.0-purple)](https://gitlab.com/ohwr/project/cernohl/-/wikis/uploads/819d71bea3458f71fba6cf4fb0f2de6b/cern_ohl_s_v2.txt)
+[![](https://badgen.net/badge/icon/KiCAD?icon=kicad&label)]
 
 </div>
 

@@ -830,7 +830,7 @@
 			(justify left bottom)
 		)
 		(uuid "a368bc2e-3007-4952-ab59-7ac5b02bdf51")
-		(property "Net Class" "PCBway min 1 oz "
+		(property "Netclass" "PCBway min 1 oz "
 			(at 141.5999 62.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -865,7 +865,7 @@
 			(justify left bottom)
 		)
 		(uuid "d6a62db4-1e7d-4df0-9437-e48249af5115")
-		(property "Net Class" "PCBway min 1 oz "
+		(property "Netclass" "PCBway min 1 oz "
 			(at 141.5999 52.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -900,7 +900,7 @@
 			(justify left bottom)
 		)
 		(uuid "f7fdd8d8-0af4-4d20-88d6-b70e841a1e62")
-		(property "Net Class" "PCBway min 1 oz "
+		(property "Netclass" "PCBway min 1 oz "
 			(at 141.5999 72.66 0)
 			(show_name no)
 			(do_not_autoplace no)

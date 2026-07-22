@@ -32,4 +32,7 @@ This is a breakout PCB for a Labjack T7, with 2.5 mm pitch screw headers to allo
 
 github.com/PhilipMcGaw/common_kicad
 
+git submodule add https://github.com/PhilipMcGaw/common_kicad KiCAD/Common
+
+
 
